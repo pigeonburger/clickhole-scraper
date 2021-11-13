@@ -43,7 +43,7 @@ def main():
             article_number = (article_urls.index(url) + 1) + (i-1) * 7
             print(f'Scraping article {article_number} of {num_articles}.....', end='\r')
 
-    print('Done scraping.')
+    print('\nDone scraping.')
 
 print('Clickhole Article Scraper')
 print('By Pigeonburger <https://github.com/pigeonburger>, 2021')
